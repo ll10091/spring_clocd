@@ -1,0 +1,16 @@
+package test1;
+
+import java.security.Signature;
+
+public class Singleton {
+//饿汉模式
+	public static Singleton singleton=new Singleton();
+	
+	private Singleton() {}
+	public static Singleton getInstaance() {
+		return singleton; 
+	}
+	
+	
+	
+}

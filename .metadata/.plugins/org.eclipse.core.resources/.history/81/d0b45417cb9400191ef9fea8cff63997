@@ -1,0 +1,13 @@
+package test1;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+public class TestXuliHua {
+	public static void main(String[] args) throws Exception {
+		Peson peson = new Peson("李锐", 22);
+		
+		FileOutputStream Out = 
+				new FileOutputStream("D:/dfg");
+	}
+}

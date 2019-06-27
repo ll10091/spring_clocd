@@ -1,0 +1,13 @@
+package test1;
+
+public class Singleton2 {
+	//懒汉模式
+	private static Singleton singleton=null;
+	private Singleton2() {}
+	public static Singleton getInstance() {
+		if(singleton==null) {
+		Singleton2 singleton2 = new Singleton2();
+		}
+		return singleton;
+	}
+}

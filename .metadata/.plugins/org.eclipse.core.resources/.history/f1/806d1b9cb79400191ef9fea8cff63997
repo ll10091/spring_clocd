@@ -1,0 +1,16 @@
+package test1;
+
+import java.security.Signature;
+
+public class Singleton {
+
+	private static final Singleton singleton=new Singleton();
+	
+	private Singleton() {}
+	private static Singleton getInstaance() {
+		return singleton; 
+	}
+	
+	
+	
+}

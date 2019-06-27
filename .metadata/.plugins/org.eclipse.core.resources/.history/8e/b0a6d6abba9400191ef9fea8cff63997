@@ -1,0 +1,18 @@
+package test1;
+
+import java.security.Signature;
+
+public class Singleton {
+//饿汉模式
+	//直接创造对象
+	public static Singleton singleton=new Singleton();
+	//私有构造函数
+	private Singleton() {}
+	//返回对象实例
+	public static Singleton getInstaance() {
+		return singleton; 
+	}
+	
+	
+	
+}

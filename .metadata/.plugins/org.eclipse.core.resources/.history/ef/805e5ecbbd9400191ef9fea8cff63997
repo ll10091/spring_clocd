@@ -1,0 +1,16 @@
+package test1;
+
+import java.io.FileOutputStream;
+
+public class xunlihua {
+	public static void main(String[] args) throws Exception {
+		FileOutputStream fileOutputStream =
+				new FileOutputStream("d:/abc/f2");
+		fileOutputStream.write(97);
+		fileOutputStream.write(96);
+		fileOutputStream.write(99);
+		fileOutputStream.write(98);
+		fileOutputStream.close();
+	}
+	
+}

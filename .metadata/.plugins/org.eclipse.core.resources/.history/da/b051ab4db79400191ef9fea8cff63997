@@ -1,0 +1,12 @@
+package test1;
+
+public class Singleton2 {
+	private static final Singleton singleton=null;
+	public Singleton2() {}
+	public static Singleton getInstance() {
+		if(singleton==null) {
+			return singleton;
+		}
+		return singleton;
+	}
+}
