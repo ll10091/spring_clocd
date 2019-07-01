@@ -7,7 +7,7 @@ public class Singleton {
 	//私有构造函数
 	private Singleton() {}
 	//返回对象实例
-	public static Singleton getInstance() {
+	public static Singleton getInstaance() {
 		return singleton; 
 	}
 	
